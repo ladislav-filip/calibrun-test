@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Dynamic;
 using System.Windows;
+using CalibrumTest.ViewModels.eshop;
 using Caliburn.Micro;
 using DevExpress.Mvvm.DataAnnotations;
 
@@ -110,9 +111,15 @@ namespace CalibrumTest.ViewModels
             _windowManager.ShowWindow(model, null, settings);
         }
 
-        public void ShowPopup()
+        public void ShowPageOne()
         {
             var model = new PageOneViewModel();
+            ActivateItem(model);
+        }
+
+        public void ShowEshop()
+        {
+            var model = new EshopViewModel();
             ActivateItem(model);
         }
     }

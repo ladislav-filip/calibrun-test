@@ -36,7 +36,8 @@
 
             <Button FontSize="15" cal:Message.Attach="[Event Click] = [Action ModalDialog]">Modal dialog</Button>
             <Button FontSize="15" cal:Message.Attach="[Event Click] = [Action ShowWindow]">Window</Button>
-            <Button FontSize="15" cal:Message.Attach="[Event Click] = [Action ShowPopup]">Show popup</Button>
+            <Button FontSize="15" cal:Message.Attach="[Event Click] = [Action ShowPageOne]">Show page one</Button>
+            <Button FontSize="15" cal:Message.Attach="[Event Click] = [Action ShowEshop]">Show eshop</Button>
         </StackPanel>
         
         
